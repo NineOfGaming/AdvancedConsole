@@ -6,7 +6,7 @@
 
 *   [About this project](#about)
     *   [Why?](#why?)
-    *   [Main Features](#main features)
+    *   [Main Features](#main-features)
 *   [Installation](#installation)
 *   [Usage](#usage)
 *   [Creating your own Commands](#dingus)
