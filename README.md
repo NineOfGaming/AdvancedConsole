@@ -17,18 +17,18 @@
 
 ### Why?
 
-While the C# console is rarely used for full applications, it's often the starting point for many developers — and there's a certain charm to its simplicity that's worth preserving.
+While the C# console is rarely used for full applications, it's often the starting point for many developers — and there's a certain charm to its simplicity that's worth preserving.  
 This project is built around improving that simplicity while adding more functionality.
 
 ### Main Features
 
-*   **Write Batching:**
-Reduces the overhead of multiple Write calls by batching them into a single flush operation.
+*   **Write Batching:**  
+Reduces the overhead of multiple Write calls by batching them into a single flush operation.  
 Improves performance in output-heavy scenarios.
 
-*   **Modular Command System:**
-Inspired loosely by HTML-style syntax, allowing you to embed commands directly into strings. Example:
-`AConsole.Write("Hello <color:red>World</color>!");`
+*   **Modular Command System:**  
+Inspired loosely by HTML-style syntax, allowing you to embed commands directly into strings. Example:  
+`AConsole.Write("Hello <color:red>World</color>!");`  
 The command system is fully modular—easy to extend with custom commands that can do much more than just styling.
 
 ## Contributing
