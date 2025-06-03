@@ -1,13 +1,13 @@
 # AdvancedConsole
 
-*Advanced Console* is a lightweight C# library that enhances the standard `Console.Write` and `Console.WriteLine` methods with performance optimizations and powerful text formatting features.
+**Advanced Console** is a lightweight C# library that enhances the standard `Console.Write` and `Console.WriteLine` methods with performance optimizations and powerful text formatting features and a plugin based inline command system.
 
 ## Overview
 
 *   [About this project](#about)
 *   [Installation](#installation)
 *   [Contributing](#contributing)
-*   [Liscense](#license)
+*   [License](#license)
 
 ## About
 
