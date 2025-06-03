@@ -28,7 +28,9 @@ Improves performance in output-heavy scenarios.
 
 *   **Modular Command System:**  
 Inspired loosely by HTML-style syntax, allowing you to embed commands directly into strings. Example:  
-`AConsole.Write("Hello <color:red>World</color>!");`  
+```cs
+AConsole.Write("Hello <color:red>World</color>!");
+```  
 The command system is fully modular—easy to extend with custom commands that can do much more than just styling.
 
 ## Contributing
