@@ -1,6 +1,6 @@
 # AdvancedConsole
 
-**Advanced Console** is a C# library that enhances the standard `Console.Write` and `Console.WriteLine` methods with performance optimizations and powerful text formatting features and a plugin based inline command system.
+**Advanced Console** is a C# library that enhances the standard `Console.Write` and `Console.WriteLine` methods with performance optimizations, advanced text formatting, and a plugin-based inline command system.
 
 ## Overview
 
@@ -9,7 +9,6 @@
     *   [Main Features](#main-features)
 *   [Installation](#installation)
 *   [Usage](#usage)
-*   [Creating your own Commands](#dingus)
 *   [Contributing](#contributing)
 *   [License](#license)
 
@@ -18,8 +17,7 @@
 ### Why?
 
 While the C# console is rarely used for full applications, it's often the starting point for many developers — and there's a certain charm to its simplicity that's worth preserving.  
-This project is built around improving that simplicity while adding more functionality.
-
+This project aims to improve that simplicity while adding useful functionality.
 
 ### Main Features
 
@@ -36,13 +34,21 @@ This project is built around improving that simplicity while adding more functio
     ```cs
     AConsole.WriteLine("Hello <color:red>World</color>!");
     ```  
-    The command system is fully modular — easy to extend with custom commands that can do much more than just styling.
+    The command system is fully modular — you can easily extend it with custom commands for styling or any other behavior.
 
     For more details view the [Usage](#usage) section.
 
+## Installation
+
+*WIP*
+
+## Usage
+
+*WIP*
+
 ## Contributing
 
-Feel free to help! [Open an issue](https://https://github.com/NineOfGaming/AdvancedConsole/issues/new) or submit PRs.
+Feel free to help! [Open an issue](https://github.com/NineOfGaming/AdvancedConsole/issues/new) or submit PRs.
 
 ### Contributors
 Thanks to all the people who contribute.
