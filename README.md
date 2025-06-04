@@ -5,7 +5,7 @@
 ## Overview
 
 *   [About this project](#about)
-    *   [Why?](#why?)
+    *   [Why?](#why)
     *   [Main Features](#main-features)
 *   [Installation](#installation)
 *   [Usage](#usage)
