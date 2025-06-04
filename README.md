@@ -1,6 +1,6 @@
 # AdvancedConsole
 
-**Advanced Console** is a lightweight C# library that enhances the standard `Console.Write` and `Console.WriteLine` methods with performance optimizations and powerful text formatting features and a plugin based inline command system.
+**Advanced Console** is a C# library that enhances the standard `Console.Write` and `Console.WriteLine` methods with performance optimizations and powerful text formatting features and a plugin based inline command system.
 
 ## Overview
 
@@ -25,16 +25,20 @@ This project is built around improving that simplicity while adding more functio
 
 *   **Write Batching:**  
 
-    Reduces the overhead of multiple Write calls by batching them into a single flush operation.  
-    Improves performance in output-heavy scenarios.
+    Reduces the overhead of multiple Console Write calls by batching them into as few operations as possible.  
+    This can significantly improve performance in output-heavy scenarios.
+
+    For more details view the [Usage](#usage) section.
 
 *   **Command System:**  
 
     Inspired loosely by HTML-style syntax, allowing you to embed commands directly into strings. Example:  
     ```cs
-    AConsole.Write("Hello <color:red>World</color>!");
+    AConsole.WriteLine("Hello <color:red>World</color>!");
     ```  
     The command system is fully modular — easy to extend with custom commands that can do much more than just styling.
+
+    For more details view the [Usage](#usage) section.
 
 ## Contributing
 
